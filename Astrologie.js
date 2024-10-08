@@ -25,7 +25,7 @@ const waterSigns = [scorpio, pisces];
     Sagittarius is missing from fire signs please add it at the 
     END of the array and verify the result.
 */
-fireSigns.push(`Sagittarius`)
+fireSigns.push(♐)
 
 
 console.log(
@@ -47,7 +47,7 @@ console.log(earthSigns[earthSigns.length - 1] !== "♐" ? "Good Answer ✅" : "W
       Pisces should not be on air Signs, please remove Pisces 
       from the array, and verify the result.
 */
-airSigns.shift()
+airSigns.shift(♋)
 
 // the line below is for testing, don't touch it :)
 console.log(airSigns[0] !== "♓︎" ? "Good Answer ✅" : "Wrong Answer ❌");
